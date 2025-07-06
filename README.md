@@ -152,7 +152,6 @@ todo-app/
 - Seamless client-server communication
 - Dynamic content rendering with EJS templating
 - Real-time updates without page refresh for certain operations
-- Clean separation between presentation and business logic
 
 ## Deployment
 
@@ -223,8 +222,7 @@ This todo list application demonstrates proficiency in full-stack web developmen
 
 ---
 
-**Project Status**: Complete and Production-Ready  
+**Project Status**: Completed  
 **Live Demo**: [https://todo-list-5zw7.onrender.com/](https://todo-list-5zw7.onrender.com/)  
-**Development Time**: [Insert timeframe]  
-**Technologies Mastered**: Node.js, Express.js, EJS, HTML5, CSS3, RESTful APIs  
+**Technologies Used**: Node.js, Express.js, EJS, HTML5, CSS3, RESTful APIs  
 **Deployment Platform**: Render
