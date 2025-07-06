@@ -1,6 +1,25 @@
 # Todo List Web Application
 
+<div align="center">
+
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
+![EJS](https://img.shields.io/badge/EJS-8BC34A?style=for-the-badge&logo=ejs&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://todo-list-5zw7.onrender.com/)
+
+</div>
+
 A full-stack web application built with Node.js, Express.js, and EJS templating engine, demonstrating proficiency in modern web development technologies and best practices.
+
+## 🚀 Live Demo
+
+**Application URL**: [https://todo-list-5zw7.onrender.com/](https://todo-list-5zw7.onrender.com/)
+
+Experience the full functionality of the todo list application deployed on Render's cloud platform.
 
 ## Project Overview
 
@@ -135,6 +154,21 @@ todo-app/
 - Real-time updates without page refresh for certain operations
 - Clean separation between presentation and business logic
 
+## Deployment
+
+### Platform: Render
+- **Live URL**: [https://todo-list-5zw7.onrender.com/](https://todo-list-5zw7.onrender.com/)
+- **Environment**: Production
+- **Build Command**: `npm install`
+- **Start Command**: `node app.js`
+- **Auto-deployment**: Enabled from GitHub repository
+
+### Configuration
+- **Port**: Dynamic (process.env.PORT)
+- **Node Version**: 18.x
+- **Memory**: 512MB
+- **Region**: US-East
+
 ## System Requirements
 
 ### Runtime Environment
@@ -186,3 +220,11 @@ Clean commit history with descriptive messages following conventional commit sta
 ## Conclusion
 
 This todo list application demonstrates proficiency in full-stack web development, showcasing technical skills in server-side programming, template rendering, responsive design, and modern web development practices. The project exhibits clean code architecture, proper error handling, and scalable design patterns suitable for production environments.
+
+---
+
+**Project Status**: Complete and Production-Ready  
+**Live Demo**: [https://todo-list-5zw7.onrender.com/](https://todo-list-5zw7.onrender.com/)  
+**Development Time**: [Insert timeframe]  
+**Technologies Mastered**: Node.js, Express.js, EJS, HTML5, CSS3, RESTful APIs  
+**Deployment Platform**: Render
