@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"     crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&  family=Lovers+Quarrel&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <span id="title">
+            <h1>Todo List</h1>
+        </span>
+        <form action="/" method="POST" id="todo-form">
+            <input type="text" name="todo_input" placeholder="Add a new Task" required>
+            <button id="submit" type="submit">Add Task</button>
+        </form>
+        <div class="box">
+            <ul>
+            <% for(var i = 0; i < ejes.length; i++) { %>
+                <li style="display: flex; align-items: center; gap: 8px;">
+                    <span><%= ejes[i] %></span>
+                    <!-- Delete button -->
+                    <form action="/task/<%= i %>?_method=DELETE" method="POST" style="display:inline;">
+                        <button type="submit">Delete</button>
+                    </form>
+                    <!-- Edit button -->
+                    <form action="/task/<%= i %>?_method=PUT" method="POST" style="display:inline;">
+                        <input type="text" name="newTask" placeholder="Edit task" required>
+                        <button type="submit">Edit</button>
+                    </form>
+                </li>
+            <% } %>
+            </ul>
+        </div>
+        </div>
+    </body>
+</html>
