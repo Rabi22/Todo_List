@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
+const PORT = process.env.PORT || 3000;
 var app = express();
 
 app.use(express.static('public')); //Serves static files (CSS, JavaScript, images, etc.) from the 'public' directory.
@@ -48,8 +49,8 @@ app.put('/task/:index', (req, res) => {
     res.redirect('/');
 });
 
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
 });
 
-// *Ignore comments please*
+// *Ignore comments please. Its for personal understanding*
