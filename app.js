@@ -9,7 +9,7 @@ app.use(methodOverride('_method'));
 app.use(express.urlencoded({ extended: true })); 
 app.set('view engine', 'ejs');
 
-var items = [];
+let items = [];
 
 app.get('/', (req, res) => {
     res.render('index',{ejes: items}); 
