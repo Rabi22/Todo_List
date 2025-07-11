@@ -2,14 +2,14 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
 const PORT = process.env.PORT || 3000;
-var app = express();
+let app = express();
 
 app.use(express.static('public')); 
 app.use(methodOverride('_method'));
 app.use(express.urlencoded({ extended: true })); 
 app.set('view engine', 'ejs');
 
-let items = [];
+const items = [];
 
 app.get('/', (req, res) => {
     res.render('index',{ejes: items}); 
